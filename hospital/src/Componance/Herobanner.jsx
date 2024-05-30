@@ -18,7 +18,7 @@ function Herobanner() {
         <div className="carousel-inner" role="listbox">
           <div
             className="carousel-item active"
-            style={{ backgroundImage: "url('assets/img/slide/slide-1.jpg')" }}
+            style={{ backgroundImage: "url('./assets/img/slide/slide-1.jpg')" }}
           >
             <div className="container">
               <h2>Welcome to <span>Medicio</span></h2>
@@ -33,7 +33,7 @@ function Herobanner() {
 
           <div
             className="carousel-item"
-            style={{ backgroundImage: "url('assets/img/slide/slide-2.jpg')" }}
+            style={{ backgroundImage: "url('./assets/img/slide/slide-2.jpg')" }}
           >
             <div className="container">
               <h2>Lorem Ipsum Dolor</h2>
@@ -48,7 +48,7 @@ function Herobanner() {
 
           <div
             className="carousel-item"
-            style={{ backgroundImage: "url('assets/img/slide/slide-3.jpg')" }}
+            style={{ backgroundImage: "url('./assets/img/slide/slide-3.jpg')" }}
           >
             <div className="container">
               <h2>Sequi ea ut et est quaerat</h2>
