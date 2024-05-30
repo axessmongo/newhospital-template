@@ -5,6 +5,14 @@ import Featured from './Featured'
 import About from './About'
 import Features from './Features'
 import Service from './Service'
+import Departments from './Departments'
+import Testimonials from './Testimonials'
+import Docter from './Docter'
+import Pricing from './Pricing'
+import Faq from './Faq'
+import Contact from './Contact'
+import Footer from './Footer'
+// import Gallery from './Gallery'
 
 function Home() {
   return (
@@ -15,6 +23,14 @@ function Home() {
         <About/>
         <Features/>
         <Service/>
+        <Departments/>
+        {/* <Testimonials/> */}
+        <Docter/>
+        {/* <Gallery/> */}
+        <Pricing/>
+        <Faq/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
