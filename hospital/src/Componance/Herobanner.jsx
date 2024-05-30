@@ -2,6 +2,10 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
+import slide1 from '../assets/img/slide/slide-1.jpg';
+import slide2 from '../assets/img/slide/slide-2.jpg';
+import slide3 from '../assets/img/slide/slide-3.jpg';
+
 
 function Herobanner() {
   return (
@@ -18,7 +22,7 @@ function Herobanner() {
         <div className="carousel-inner" role="listbox">
           <div
             className="carousel-item active"
-            style={{ backgroundImage: "url('assets/img/slide/slide-1.jpg')" }}
+            style={{ backgroundImage: `url(${slide1})` }}
           >
             <div className="container">
               <h2>Welcome to <span>Medicio</span></h2>
@@ -33,7 +37,7 @@ function Herobanner() {
 
           <div
             className="carousel-item"
-            style={{ backgroundImage: "url('assets/img/slide/slide-2.jpg')" }}
+            style={{ backgroundImage: `url(${slide2})` }}
           >
             <div className="container">
               <h2>Lorem Ipsum Dolor</h2>
@@ -48,7 +52,7 @@ function Herobanner() {
 
           <div
             className="carousel-item"
-            style={{ backgroundImage: "url('assets/img/slide/slide-3.jpg')" }}
+            style={{ backgroundImage: `url(${slide3})` }}
           >
             <div className="container">
               <h2>Sequi ea ut et est quaerat</h2>

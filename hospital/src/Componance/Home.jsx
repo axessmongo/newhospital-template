@@ -5,6 +5,8 @@ import Featured from './Featured'
 import About from './About'
 import Features from './Features'
 import Service from './Service'
+import Departments from './Departments'
+import Testimonials from './Testimonials'
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
         <About/>
         <Features/>
         <Service/>
+        <Departments/>
+        <Testimonials/>
     </div>
   )
 }

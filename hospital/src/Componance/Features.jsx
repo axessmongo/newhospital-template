@@ -1,4 +1,7 @@
 import React from 'react'
+import 'boxicons/css/boxicons.min.css';
+
+import featureimg from '../assets/img/features.jpg'
 
 function Features() {
   return (
@@ -28,7 +31,7 @@ function Features() {
               <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
             </div>
           </div>
-          <div className="image col-lg-6 order-1 order-lg-2" style={{backgroundImage: `url(${"assets/img/features.jpg"})`}} data-aos="zoom-in"></div>
+          <div className="image col-lg-6 order-1 order-lg-2" style={{ backgroundImage: `url(${featureimg})` }} data-aos="zoom-in"></div>
         </div>
       </div>
     </section>
