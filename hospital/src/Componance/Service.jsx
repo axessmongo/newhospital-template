@@ -19,75 +19,63 @@ function Service() {
 
           <div className="row">
             <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div className="icon">
-                <i className="fas fa-heartbeat"></i>
-              </div>
+              
               <h4 className="title">
-                <a href="#">Lorem Ipsum</a>
+                <a href="#">General Medicine:</a>
               </h4>
               <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                occaecati cupiditate non provident
+              Comprehensive healthcare for all ages, including preventive care,
+              diagnosis, and treatment of common illnesses.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div className="icon">
-                <i className="fas fa-pills"></i>
-              </div>
+            
               <h4 className="title">
-                <a href="#">Dolor Sitema</a>
+                <a href="#">Emergency Services:</a>
               </h4>
               <p className="description">
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat tarad limino ata
+              Immediate and life-saving care available 24/7 for urgent medical
+              situations.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div className="icon">
-                <i className="fas fa-hospital-user"></i>
-              </div>
+             
               <h4 className="title">
-                <a href="#">Sed ut perspiciatis</a>
+                <a href="#">Surgical Services:</a>
               </h4>
               <p className="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur
+              Advanced surgical procedures performed by experienced surgeons
+              using state-of-the-art technology.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div className="icon">
-                <i className="fas fa-dna"></i>
-              </div>
+             
               <h4 className="title">
-                <a href="#">Magni Dolores</a>
+                <a href="#">Maternity Care:</a>
               </h4>
               <p className="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
+              Personalized care for expecting mothers, from prenatal to postnatal
+              services, ensuring a safe and healthy pregnancy journey.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div className="icon">
-                <i className="fas fa-wheelchair"></i>
-              </div>
+             
               <h4 className="title">
-                <a href="#">Nemo Enim</a>
+                <a href="#">Pediatrics:</a>
               </h4>
               <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                voluptatum deleniti atque
+              Specialized medical care for infants, children, and adolescents, focusing on
+              their growth and development.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div className="icon">
-                <i className="fas fa-notes-medical"></i>
-              </div>
+              
               <h4 className="title">
-                <a href="#">Eiusmod Tempor</a>
+                <a href="#">Cardiology: </a>
               </h4>
               <p className="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-                soluta nobis est eligendi
+              Expert heart care, offering advanced treatments and diagnostics for
+              cardiovascular conditions.
               </p>
             </div>
           </div>
@@ -101,10 +89,8 @@ function Service() {
           <div class="section-title">
             <h2>Make an Appointment</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            Schedule your visit with our experienced medical professionals today. Call us at [phone number]
+            or book online for convenient and prompt service.
             </p>
           </div>
 

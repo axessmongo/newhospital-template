@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from "../assets/img/logo/Logo.png"
 function Footer() {
   return (
     <div>
@@ -7,9 +7,12 @@ function Footer() {
       <div className="footer-top">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="footer-info">
-                <h3>Medicio</h3>
+                <div>
+                  <img src={logo} className='logo1' alt="" />
+                </div>
+                
                 <p>
                   A108 Adam Street <br />
                   NY 535022, USA<br /><br />
@@ -26,7 +29,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-6 footer-links">
+            <div className="col-lg-4 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -37,20 +40,10 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><i className="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-              </ul>
-            </div>
 
             <div className="col-lg-4 col-md-6 footer-newsletter">
               <h4>Our Newsletter</h4>
-              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <p>Stay informed with exclusive updates and offers through our newsletter.</p>
               <form action="" method="post">
                 <input type="email" name="email" /><input type="submit" value="Subscribe" />
               </form>
@@ -61,10 +54,10 @@ function Footer() {
 
       <div className="container">
         <div className="copyright">
-          &copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+         <p>Copyright UnityHealthCenter. All Rights Reserved</p>
         </div>
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by  <a href="https://axesstechnology.in/">Axess Technology</a>
         </div>
       </div>
     </footer>

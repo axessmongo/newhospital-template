@@ -27,7 +27,6 @@ function Home() {
         {/* <Testimonials/> */}
         <Docter/>
         {/* <Gallery/> */}
-        <Pricing/>
         <Faq/>
         <Contact/>
         <Footer/>
